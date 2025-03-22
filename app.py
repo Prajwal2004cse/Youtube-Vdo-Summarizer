@@ -1,6 +1,9 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))  # Ensure the module is found
+from extract_transcript import get_video_transcript
 import streamlit as st
 import urllib.parse
-from extract_transcript import get_video_transcript
 from summarization import summarize_text
 
 # ---- PAGE CONFIG ----
