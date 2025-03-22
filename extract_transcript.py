@@ -1,3 +1,5 @@
+pip install youtube-transcript-api
+
 from youtube_transcript_api import YouTubeTranscriptApi
 
 def get_video_transcript(video_id):
